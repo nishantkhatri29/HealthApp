@@ -1,3 +1,11 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">HealthApp</string>
+=======
+    <string name="app_name">Health App</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="server_client_id">AIzaSyDkjyCyChdIfxuEqC5c8OsIdeC1iJmyMog</string>
+>>>>>>> 3f7cb857a413725a204632190c176c4f4a884419
 </resources>

@@ -1,1 +1,5 @@
 include ':app'
+<<<<<<< HEAD
+=======
+rootProject.name='Health App'
+>>>>>>> 3f7cb857a413725a204632190c176c4f4a884419

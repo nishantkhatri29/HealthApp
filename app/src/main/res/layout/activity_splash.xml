@@ -4,7 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     android:background="#121212"
+=======
+>>>>>>> 3f7cb857a413725a204632190c176c4f4a884419
     tools:context=".Splash">
 
     <ImageView
@@ -21,8 +24,13 @@
     <ProgressBar
         android:layout_width="63dp"
         android:layout_height="66dp"
+<<<<<<< HEAD
         android:layout_marginTop="8dp"
         android:indeterminate="true"
+=======
+        android:indeterminate="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+>>>>>>> 3f7cb857a413725a204632190c176c4f4a884419
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/imageView" />

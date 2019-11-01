@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
     package="com.example.healthapp">
+=======
+    package="edu.ncuindia.healthapp">
+>>>>>>> 3f7cb857a413725a204632190c176c4f4a884419
 
     <application
         android:allowBackup="true"
@@ -9,17 +13,30 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+<<<<<<< HEAD
         <activity android:name=".Splash"
             android:theme="@style/SplashTheme">
+=======
+        <activity android:name=".Splash">
+>>>>>>> 3f7cb857a413725a204632190c176c4f4a884419
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
         <activity android:name=".MainActivity">
 
         </activity>
+=======
+        <activity android:name=".DetailActivity"></activity>
+        <activity android:name=".LoginActivity">
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"></activity>
+>>>>>>> 3f7cb857a413725a204632190c176c4f4a884419
     </application>
 
 </manifest>
