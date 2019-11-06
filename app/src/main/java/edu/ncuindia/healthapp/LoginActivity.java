@@ -74,7 +74,7 @@ public class LoginActivity extends AppCompatActivity implements
     private void updateUI(@Nullable GoogleSignInAccount account) {
         if (account != null) {
             findViewById(R.id.sign_in_button).setVisibility(View.GONE);
-            Intent intent = new Intent(getApplicationContext(), DetailActivity.class);
+            Intent intent = new Intent(getApplicationContext(), MainActivity.class);
             startActivity(intent);
             Toast.makeText(getApplicationContext(), "Welcome "+account.getDisplayName().toString().trim(), Toast.LENGTH_LONG).show();
         } else {
