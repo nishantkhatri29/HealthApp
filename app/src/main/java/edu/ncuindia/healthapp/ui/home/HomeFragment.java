@@ -32,7 +32,6 @@ public class HomeFragment extends Fragment {
         final GoogleSignInAccount acct = GoogleSignIn.getLastSignedInAccount(this.context);
         if (acct != null) {
             String personName = acct.getDisplayName();
-            Toast.makeText(this.context, "Welcome "+personName, Toast.LENGTH_LONG).show();
         } else {
             Toast.makeText(this.context, "You are not authorized!", Toast.LENGTH_LONG).show();
         }
