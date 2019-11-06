@@ -9,10 +9,7 @@
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="resolveModulePerSourceSet" value="false" />
-<<<<<<< HEAD
-=======
         <option name="testRunner" value="PLATFORM" />
->>>>>>> 3f7cb857a413725a204632190c176c4f4a884419
       </GradleProjectSettings>
     </option>
   </component>
