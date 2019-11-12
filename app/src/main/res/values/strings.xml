@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Health App</string>
     <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_dashboard">Profile</string>
+    <string name="title_notifications">Food</string>
     <string name="server_client_id">AIzaSyDkjyCyChdIfxuEqC5c8OsIdeC1iJmyMog</string>
 </resources>
