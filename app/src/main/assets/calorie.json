@@ -1,0 +1,101 @@
+[
+  {
+    "Name": "Soft serve ice cream",
+    "Portion_Default": 170,
+    "Consumed": 0,
+    "Unit": "gm",
+    "Calories": 347.73,
+    "Saturated_Fats": 11.75,
+    "Image": "ice_cream"
+  },
+  {
+    "Name": "Coffee",
+    "Portion_Default": 150,
+    "Consumed": 0,
+    "Unit": "ml",
+    "Calories": 9.48,
+    "Saturated_Fats": 0,
+    "Image": "coffee"
+  },
+  {
+    "Name": "Milk",
+    "Portion_Default": 250,
+    "Consumed": 0,
+    "Unit": "gm",
+    "Calories": 146.4,
+    "Saturated_Fats": 4.54,
+    "Image": "milk"
+  },
+  {
+    "Name": "Potato chips",
+    "Portion_Default": 50,
+    "Consumed": 0,
+    "Unit": "gm",
+    "Calories": 268,
+    "Saturated_Fats": 5.48,
+    "Image": "potato_chips"
+  },
+  {
+    "Name": "Cheese pizza",
+    "Portion_Default": 1,
+    "Consumed": 0,
+    "Unit": "slice",
+    "Calories": 203.06,
+    "Saturated_Fats": 2.61,
+    "Image": "cheese_pizza"
+  },
+  {
+    "Name": "Fried rice (plain)",
+    "Portion_Default": 1,
+    "Consumed": 0,
+    "Unit": "gm",
+    "Calories": 125.33,
+    "Saturated_Fats": 0.76,
+    "Image": "fried_rice_plain"
+  },
+  {
+    "Name": "Grilled cheese sandwich",
+    "Portion_Default": 1,
+    "Consumed": 0,
+    "Unit": "sandwich",
+    "Calories": 290,
+    "Saturated_Fats": 5.98,
+    "Image": "grilled_cheese_sandwich"
+  },
+  {
+    "Name": "White bread",
+    "Portion_Default": 1,
+    "Consumed": 0,
+    "Unit": "slice",
+    "Calories": 69.16,
+    "Saturated_Fats": 0.21,
+    "Image": "white_bread"
+  },
+  {
+    "Name": "Spaghetti, macaroni, or pasta",
+    "Portion_Default": 1,
+    "Consumed": 0,
+    "Unit": "bowl",
+    "Calories": 196,
+    "Saturated_Fats": 0.13,
+    "Image": "pasta"
+  },
+  {
+    "Name": "Cereal",
+    "Portion_Default": 1,
+    "Consumed": 0,
+    "Unit": "gm",
+    "Calories": 72.54,
+    "Saturated_Fats": 0.21,
+    "Image": "cereal"
+  },
+  {
+    "Name": "Coft drink",
+    "Portion_Default": 1,
+    "Consumed": 0,
+    "Unit": "ml",
+    "Calories": 154.98,
+    "Saturated_Fats": 0,
+    "Image": "cold_drink"
+  }
+]
