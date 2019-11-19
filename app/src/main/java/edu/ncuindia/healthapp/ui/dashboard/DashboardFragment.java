@@ -49,6 +49,10 @@ public class DashboardFragment extends Fragment {
     private Spinner country;
     private TextView stepGoal;
     private TextView weightGoal;
+    private Button subStep;
+    private Button addStep;
+    private Button subWeight;
+    private Button addWeight;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              final ViewGroup container, Bundle savedInstanceState) {
@@ -67,6 +71,46 @@ public class DashboardFragment extends Fragment {
         country = root.findViewById(R.id.spinner);
         stepGoal = root.findViewById(R.id.stepGoalField);
         weightGoal = root.findViewById(R.id.weightGoalField);
+        subStep= root.findViewById(R.id.subStep);
+        addStep= root.findViewById(R.id.addStep);
+        subWeight=root.findViewById(R.id.subWeight);
+        addWeight=root.findViewById(R.id.addWeight);
+
+
+        subStep.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String a=stepGoal.getText().toString();
+                int old=Integer.parseInt(a);
+                stepGoal.setText(String.valueOf(Integer.parseInt(stepGoal.getText().toString())-100));
+            }
+        });
+        addStep.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String b=stepGoal.getText().toString();
+                int new1=Integer.parseInt(b);
+                stepGoal.setText(String.valueOf(Integer.parseInt(stepGoal.getText().toString())+100));
+            }
+        });
+        subWeight.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String a=weightGoal.getText().toString();
+                int old=Integer.parseInt(a);
+                weightGoal.setText(String.valueOf(Integer.parseInt(weightGoal.getText().toString())-1));
+
+            }
+        });
+        addWeight.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String b=weightGoal.getText().toString();
+                int new1=Integer.parseInt(b);
+                weightGoal.setText(String.valueOf(Integer.parseInt(weightGoal.getText().toString())+1));
+
+            }
+        });
 
         LiveData<UserModel> data = dashboardViewModel.getUser(acct.getEmail());
         if (data != null) {
